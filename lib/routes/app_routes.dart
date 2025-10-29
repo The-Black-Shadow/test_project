@@ -9,4 +9,7 @@ class AppRoutes {
   final String navigationScreen = '/navigationScreen';
   final String signinScreen = '/signinScreen';
   final String signupScreen = '/signupScreen';
+  final String homeScreen = '/homeScreen';
+  final String profileScreen = '/profileScreen';
+  final String nearbyScreen = '/nearbyScreen';
 }

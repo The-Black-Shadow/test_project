@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.quick_start"
+    namespace = "com.tshadow.testProject"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 

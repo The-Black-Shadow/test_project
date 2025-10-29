@@ -2,11 +2,11 @@ import 'package:dio/dio.dart' as dio;
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
-import 'package:quick_start/constant/app_api_end_point.dart';
-import 'package:quick_start/routes/app_routes.dart';
-import 'package:quick_start/services/storage_services/get_storage_services.dart';
-import 'package:quick_start/utils/app_log.dart' as AppPrint;
-import 'package:quick_start/widgets/app_log/error_log.dart';
+import 'package:test_project/constant/app_api_end_point.dart';
+import 'package:test_project/routes/app_routes.dart';
+import 'package:test_project/services/storage_services/get_storage_services.dart';
+import 'package:test_project/widgets/app_log/app_print.dart';
+import 'package:test_project/widgets/app_log/error_log.dart';
 
 class AppApi {
   final dio.Dio _dio = dio.Dio();

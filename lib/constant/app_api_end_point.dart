@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:quick_start/widgets/app_log/error_log.dart';
+import 'package:test_project/widgets/app_log/error_log.dart';
 
 class AppApiEndPoint {
   AppApiEndPoint._privateConstructor();

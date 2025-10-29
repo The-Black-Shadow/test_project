@@ -2,9 +2,9 @@ import 'dart:convert';
 
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:quick_start/constant/app_storage_key.dart';
-import 'package:quick_start/model/user_profile_model/user_profile_model.dart';
-import 'package:quick_start/widgets/app_log/error_log.dart';
+import 'package:test_project/constant/app_storage_key.dart';
+import 'package:test_project/model/user_profile_model/user_profile_model.dart';
+import 'package:test_project/widgets/app_log/error_log.dart';
 
 import '../../routes/app_routes.dart';
 

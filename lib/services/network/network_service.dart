@@ -37,6 +37,7 @@ class NetworkService {
     }
 
     Get.dialog(
+      // ignore: deprecated_member_use
       WillPopScope(
         onWillPop: () async => false, // Prevent closing by back button
         child: AlertDialog(

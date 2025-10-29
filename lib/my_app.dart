@@ -2,8 +2,8 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:quick_start/routes/app_routes.dart';
-import 'package:quick_start/routes/app_routes_file.dart';
+import 'package:test_project/routes/app_routes.dart';
+import 'package:test_project/routes/app_routes_file.dart';
 
 class MyApp extends StatelessWidget {
   final bool? onboardingComplete;
@@ -25,7 +25,6 @@ class MyApp extends StatelessWidget {
           defaultTransition: Transition.rightToLeft,
           transitionDuration: const Duration(milliseconds: 200),
           getPages: appRootRoutesFile,
-          // initialRoute: AppRoutes.instance.serviceInformationScreen,
           initialRoute: AppRoutes.instance.initial,
         );
       },

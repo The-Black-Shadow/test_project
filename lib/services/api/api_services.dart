@@ -3,11 +3,11 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:get/get.dart' hide MultipartFile, FormData;
-import 'package:quick_start/routes/app_routes.dart';
-import 'package:quick_start/services/api/api.dart';
-import 'package:quick_start/services/api/non_auth_api.dart';
-import 'package:quick_start/services/storage_services/get_storage_services.dart';
-import 'package:quick_start/widgets/app_log/error_log.dart';
+import 'package:test_project/routes/app_routes.dart';
+import 'package:test_project/services/api/api.dart';
+import 'package:test_project/services/api/non_auth_api.dart';
+import 'package:test_project/services/storage_services/get_storage_services.dart';
+import 'package:test_project/widgets/app_log/error_log.dart';
 
 class ApiServices {
   ///////////////
